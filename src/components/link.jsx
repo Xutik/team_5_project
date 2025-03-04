@@ -20,8 +20,8 @@ function Link(data) {
 		E: <HiOutlineClipboardDocumentCheck size={25} />,
 		F: <HiOutlineArrowsUpDown size={25} />,
 		G: <IoMicOutline size={25} />,
-		H: <IoSettingsOutline />,
-		I: <IoIosHelpCircleOutline />,
+		H: <IoSettingsOutline size={25} />,
+		I: <IoIosHelpCircleOutline size={25} />,
 	};
 
 	return (

@@ -7,14 +7,16 @@ function Sidebar() {
 	return (
 		<aside>
 			<div className="links">
-				{links1.map((data) => (
-					<Link link={data} />
-				))}
-			</div>
-			<div>
-				{links2.map((data) => (
-					<Link link={data} />
-				))}
+				<div>
+					{links1.map((data) => (
+						<Link link={data} />
+					))}
+				</div>
+				<div className="bottom-links">
+					{links2.map((data) => (
+						<Link link={data} />
+					))}
+				</div>
 			</div>
 		</aside>
 	);
