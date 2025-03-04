@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 315px 7fr 9fr 5fr;
+    border: solid 1px var(--grey);
+    min-height: 80px;
+}
+
+.logo{
+    display: flex;
+
+    align-items: center;
+    border-right: solid 1px var(--grey);
+    padding-left: 30px;
+}
+
+h1{
+    margin-left: 20px;
+    color: #0C284F;
+}
+
+.timeInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px 40px;
+}
+
+.date{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.time{
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: #168BD9;
+}
+
+.searcher{
+    border-radius: 10px;
+    border: solid var(--grey) 1px;
+    max-width: 100%;
+}
+
+.searchbar{
+    max-height: 50%;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+    border: solid 1px var(--grey);
+    border-radius: 10px;
+}
+
+.searchbar:active{
+    outline: var(--blue);
+}
+
+.bell{
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5%;
+}
+
+.pfp{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
