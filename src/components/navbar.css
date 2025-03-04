@@ -5,9 +5,11 @@
 
 .navbar{
     display: grid;
-    grid-template-columns: 315px 7fr 9fr 5fr;
+    grid-template-columns: 275px 7fr 9fr 5fr;
     border: solid 1px var(--grey);
     min-height: 80px;
+    position: sticky;
+    top: 0px;
 }
 
 .logo{
@@ -27,7 +29,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 20px 40px;
+    padding-inline: 5% 10%;
 }
 
 .date{

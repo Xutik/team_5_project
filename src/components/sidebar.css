@@ -1,10 +1,35 @@
 aside {
-	border: solid 10px var(--grey);
+	border-right: solid 1px var(--grey);
 	display: flex;
 	flex-direction: column;
-	width: 315px;
+	width: 275px;
+	position: sticky;
+	top: 82px;
+	left: 0px;
+	height: (100vh - 82px);
 }
 
 aside h3 {
 	font-weight: 500;
+}
+
+.links{
+	padding-inline: 10px;
+}
+
+.link{
+	padding-left: 15px;
+	box-sizing: content-box;
+	display: flex;
+	align-items: center;
+	margin-block: 10px;
+	cursor: pointer;
+	border: solid 1px var(--lightblue);
+	border-radius: 10px;
+	p{
+		font-size: 1.3rem;
+		font-weight: 600;
+		margin-left: 10px;
+		margin-block: 5px;
+	}
 }

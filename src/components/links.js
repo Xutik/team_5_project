@@ -1,32 +1,41 @@
-
-
-export const links = [
+export const links1 = [
     {
         title: "Home",
-        image: "HiOutlineHome"
+        icon: "A"
     },
     {
         title: "Patients",
-        image: "Hello"
+        icon: "B"
     },
     {
         title: "Mail",
-        image: "Hello"
+        icon: "C"
     },
     {
         title: "Messages",
-        image: "Hello"
+        icon: "D"
     },
     {
         title: "Today's Schedule",
-        image: "Hello"
+        icon: "E"
     },
     {
         title: "Manage Shifts",
-        image: "Hello"
+        icon: "F"
     },
     {
         title: "Voice-To-Text",
-        image: "Hello"
+        icon: "G"
+    },
+]
+
+export const links2 = [
+    {
+        title: "Help",
+        icon: "H"
+    },
+    {
+        title: "Settings",
+        icon: "I"
     },
 ]
