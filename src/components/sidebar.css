@@ -1,0 +1,10 @@
+aside {
+	border: solid 10px var(--grey);
+	display: flex;
+	flex-direction: column;
+	width: 315px;
+}
+
+aside h3 {
+	font-weight: 500;
+}
