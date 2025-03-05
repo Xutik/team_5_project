@@ -1,16 +1,26 @@
 .tasks{
     border-radius: 10px;
-    border: solid 1px black;
+    border: solid 1px var(--borderGrey);
     text-align: left;
-    width: fit-content;
-    padding: 15px 30px;
+    width: max-content;
+    max-height: min-content;
+    padding: 20px;
+    align-items: center;
 }
 
 li{
     list-style-type: none;
     margin-block: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+li input{
+    margin-right: 10px;
 }
 
 .taskTitle{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
 }

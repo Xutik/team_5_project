@@ -5,19 +5,20 @@
 
 .navbar{
     display: grid;
-    grid-template-columns: 275px 7fr 9fr 5fr;
-    border: solid 1px var(--grey);
-    min-height: 80px;
+    grid-template-columns: var(--sidebarWidth) 7fr 9fr 5fr;
+    border: solid 1px var(--borderGrey);
+    min-height: var(--navbarHeight);
     position: sticky;
     top: 0px;
+    background-color: white;
 }
 
 .logo{
     display: flex;
-
     align-items: center;
-    border-right: solid 1px var(--grey);
+    border-right: solid 1px var(--borderGrey);
     padding-left: 30px;
+
 }
 
 h1{
@@ -45,7 +46,7 @@ h1{
 
 .searcher{
     border-radius: 10px;
-    border: solid var(--grey) 1px;
+    border: solid var(--borderGrey) 1px;
     max-width: 100%;
 }
 
@@ -54,7 +55,7 @@ h1{
     padding-left: 10px;
     margin-top: 20px;
     font-size: 1rem;
-    border: solid 1px var(--grey);
+    border: solid 1px var(--borderGrey);
     border-radius: 10px;
 }
 

@@ -21,43 +21,43 @@ export const patients = [
         status: statuses.a
     },
     {
-        name: "Diane Russel",
+        name: "Bob Robertsson",
         idNum: "MK3333",
         caretaker: "Kristin",
         status: statuses.b
     },
     {
-        name: "Diane Russel",
+        name: "Bessie Cooper",
         idNum: "DO3883",
         caretaker: "Kristin",
         status: statuses.c
     },
     {
-        name: "Diane Russel",
+        name: "Marvin McKinney",
         idNum: "PO1001",
         caretaker: "Kristin",
         status: statuses.b
     },
     {
-        name: "Diane Russel",
+        name: "Ester Rob",
         idNum: "AK2211",
         caretaker: "Kristin",
         status: statuses.b
     },
     {
-        name: "Diane Russel",
+        name: "John Wyatt",
         idNum: "MN5511",
         caretaker: "Kristin",
         status: statuses.a
     },
     {
-        name: "Diane Russel",
+        name: "Pizza Man",
         idNum: "JU7288",
         caretaker: "Kristin",
         status: statuses.c
     },
     {
-        name: "Diane Russel",
+        name: "Charlotte Indigo",
         idNum: "RT5834",
         caretaker: "Kristin",
         status: statuses.c
