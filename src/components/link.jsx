@@ -10,8 +10,6 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { IoIosHelpCircleOutline } from "react-icons/io";
 
 function Link(data) {
-	console.log(data.link.title);
-
 	const icons = {
 		A: <HiOutlineHome size={25} />,
 		B: <IoPeopleOutline size={25} />,
@@ -25,7 +23,7 @@ function Link(data) {
 	};
 
 	return (
-		<div className="link">
+		<div className="link" key={data.link.icon}>
 			{icons[data.link.icon]}
 			<p>{data.link.title}</p>
 		</div>

@@ -1,8 +1,16 @@
 .tasks{
-
+    border-radius: 10px;
+    border: solid 1px black;
     text-align: left;
+    width: fit-content;
+    padding: 15px 30px;
 }
 
 li{
     list-style-type: none;
+    margin-block: 10px;
+}
+
+.taskTitle{
+    margin-bottom: 20px;
 }

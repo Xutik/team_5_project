@@ -1,0 +1,13 @@
+.patients{
+    border: solid black 1px;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 15px 30px;
+}
+
+.patient{
+    display: flex;
+    border: solid black 1px;
+    justify-content: space-between;
+    padding: 10px;
+}

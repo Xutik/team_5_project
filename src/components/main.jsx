@@ -8,7 +8,7 @@ function Main() {
 	return (
 		<main>
 			<Tasks />
-	
+			<Patients></Patients>
 			
 		</main>
 	);
