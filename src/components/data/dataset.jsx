@@ -68,8 +68,8 @@ const generateId = () => {
     return staff;
   };
   
-  const patientsData = generatePatients(50);
-  const staffData = generateStaff(30);
+  export const patientsData = generatePatients(50);
+  export const staffData = generateStaff(30);
   
   console.log("Patients Data:", patientsData);
   console.log("Staff Data:", staffData);
