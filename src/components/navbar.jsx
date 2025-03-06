@@ -2,6 +2,7 @@ import React from "react";
 import { IoIosSearch } from "react-icons/io";
 import { GiHealthNormal } from "react-icons/gi";
 import { FaRegBell } from "react-icons/fa";
+import { RxHamburgerMenu } from "react-icons/rx";
 import "./navbar.css";
 
 function Navbar() {
@@ -22,17 +23,18 @@ function Navbar() {
 			</div>
 			<input type="search" placeholder="Search" className="searchbar" />
 			<div className="profile">
-				<FaRegBell size={25} className="bell"/>
+				<FaRegBell size={25} className="bell" />
 				<img
 					className="pfp"
 					src="https://www.bartonassociates.com/wp-content/uploads/2017/03/Blog-Twitter-Facebook-1080x1080-2024-05-23T101111.816.jpg"
 					alt="users profile"
 				/>
-                <div className="person">
-				<p className="name">Kristin</p>
-				<p className="occupation">Specialist Nurse</p>
-                </div>
+				<div className="person">
+					<p className="name">Kristin</p>
+					<p className="occupation">Specialist Nurse</p>
+				</div>
 			</div>
+				<RxHamburgerMenu size={40} className="menu" />
 		</div>
 	);
 }

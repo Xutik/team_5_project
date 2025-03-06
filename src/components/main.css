@@ -1,26 +1,27 @@
-main{
-    margin: 20px;
-    margin-left: calc(var(--sidebarWidth) + 30px);
-    padding: 20px;
-    border: solid 1px var(--borderGrey);
-    border-radius: 10px;
-    /* display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 2fr 1fr;
-    row-gap: 20px;
-    column-gap: 40px; */
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    background-color: white;
+main {
+	margin: 20px;
+	margin-left: calc(var(--sidebarWidth) + 30px);
+	padding: 20px 40px;
+	border: solid 1px var(--borderGrey);
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+    align-items: space-between;
+	flex-flow: row wrap;
+	background-color: white;
 }
 
-.tasks{
-    grid-row-start: 1;
-    grid-row-end: 2;
-
+.tasks {
+	grid-row-start: 1;
+	grid-row-end: 2;
 }
 
-.patients{
-
+@media (max-width: 400px) {
+	aside {
+		display: none;
+	}
+	main {
+		margin-left: 20px;
+        padding-inline: 15px;
+	}
 }

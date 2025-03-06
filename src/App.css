@@ -6,7 +6,7 @@
   --blue: #168BD9;
   --lightblue: #E6FAFF;
   --navbarHeight: 70px;
-  --sidebarWidth: 275px
+  --sidebarWidth: 20%;
 }
 
 
@@ -16,4 +16,8 @@
 
 body{
   background-color: var(--grey);
+}
+
+svg{
+  min-width: 20px;
 }

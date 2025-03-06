@@ -24,3 +24,10 @@ li input{
     font-size: 1.5rem;
     font-weight: 500;
 }
+
+/* definetely not the best solution but time is of the essence */
+@media (max-width: 1410px) {
+    .tasks{
+        margin-bottom: 20px;
+    }
+}
