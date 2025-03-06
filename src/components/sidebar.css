@@ -44,3 +44,9 @@ aside h3 {
 		margin-block: 5px;
 	}
 }
+
+@media (max-width: 400px) {
+	aside {
+		display: none;
+	}
+}

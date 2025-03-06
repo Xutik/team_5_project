@@ -36,3 +36,12 @@
 .patient div p{
     margin-left: 10px;
 }
+
+@media(max-width: 400px) {
+    .patient{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+    
+}

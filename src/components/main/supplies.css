@@ -1,17 +1,40 @@
-h4{
-    color: #808080;
-
-}
-
 .supplies{
     border: solid 1px var(--borderGrey);
     border-radius: 10px;
-    width: 92%;
     margin-inline: 0px;
-    padding-inline: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.suppliesTitle{
+    margin-bottom: 10px;
+}
+
+.supplySubheader{
+    color: #808080;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1rem;
 }
 
 .supplyInfo{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.red{
+    color: red;
+}
+
+@media (max-width: 400px) {
+    .supplies{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .supplyInfo div{
+        margin-inline: 10px;
+    }
 }
