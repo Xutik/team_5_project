@@ -6,11 +6,11 @@ import "./main.css";
 
 function Main() {
 	return (
-		<main>
+		<>
 			<Tasks />
 			<Patients />
 			<Supplies />
-		</main>
+		</>
 	);
 }
 
